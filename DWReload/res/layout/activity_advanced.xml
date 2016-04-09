@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+ <ScrollView xmlns:android="http://schemas.android.com/apk/res/android" 
+     android:layout_width="fill_parent" 
+     android:layout_height="fill_parent"> 
+
+     
+ 	    	<LinearLayout
+ 	    	    android:layout_width="fill_parent"
+ 	    	    android:layout_height="wrap_content"
+ 	    	    android:orientation="vertical" >
+
+ 	    		<TextView
+ 	    		    android:id="@+id/textView1"
+ 	    		    android:layout_width="wrap_content"
+ 	    		    android:layout_height="wrap_content"
+ 	    		    android:layout_gravity="center_horizontal"
+ 	    		    android:text="@string/advanced"
+ 	    		    android:textAppearance="?android:attr/textAppearanceLarge" />
+
+ 	    		<CheckBox
+ 	    		    android:id="@+id/cb_usebackcaminstdfront"
+ 	    		    android:layout_width="wrap_content"
+ 	    		    android:layout_height="wrap_content"
+ 	    		    android:text="@string/backinsdfront"
+ 	    		    android:textSize="12sp" />
+
+ 	    		<CheckBox
+ 	    		    android:id="@+id/cb_numberinthename"
+ 	    		    android:layout_width="wrap_content"
+ 	    		    android:layout_height="wrap_content"
+ 	    		    android:text="@string/numinrecordname"
+ 	    		    android:textSize="12sp" />
+ 	    		
+ 	    		
+	    
+	    <TextView
+	        android:id="@+id/copyrghts"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/codeword1" />
+
+	    <EditText
+	        android:id="@+id/editcw1"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:ems="10"
+	        android:inputType="text" >
+
+	        <requestFocus />
+	    </EditText>
+
+	    <TextView
+	        android:id="@+id/cmd1"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/command1" />
+
+	    <EditText
+	        android:id="@+id/editcmd1"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:ems="10"
+	        android:inputType="text" />
+
+	    <TextView
+	        android:id="@+id/cw2"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/codeword2" />
+
+	    <EditText
+	        android:id="@+id/editcw2"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:ems="10"
+	        android:inputType="text" />
+	    
+	    <TextView
+	        android:id="@+id/cmd2"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/command2" />
+
+	    <EditText
+	        android:id="@+id/editcmd2"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:ems="10"
+	        android:inputType="text" />
+
+	    <TextView
+	        android:id="@+id/cw3"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/codeword3" />
+
+	    <EditText
+	        android:id="@+id/editcw3"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:ems="10"
+	        android:inputType="text" />
+	    
+	    <TextView
+	        android:id="@+id/cmd3"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/command3" />
+
+	    <EditText
+	        android:id="@+id/editcmd3"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:ems="10"
+	        android:inputType="text" />
+
+	    <TextView
+	        android:id="@+id/textView2"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/ifnophoto" />
+
+	    <Button
+	        android:id="@+id/filebutton"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/btn_choose" />
+
+	    <TextView
+	        android:id="@+id/pathtophoto"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content" />
+
+	    <CheckBox
+	        android:id="@+id/cb_dayreport"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/dayreport_descr"
+	        android:textSize="12sp" />
+
+	    <TextView
+	        android:id="@+id/timerep"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:textAppearance="?android:attr/textAppearanceLarge" />
+	
+	</LinearLayout>
+ </ScrollView>
